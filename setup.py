@@ -1,9 +1,9 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="nxtgen-vox-data-management",
+    name="m4i-data-management",
     version="1.0.14",
-    author="Van Oord Data Management",
+    author="Aurelius Enterprise",
     packages=find_packages(),
     python_requires="~=3.7",
     install_requires=[

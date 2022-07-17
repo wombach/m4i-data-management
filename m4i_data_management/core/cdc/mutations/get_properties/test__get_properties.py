@@ -1,6 +1,6 @@
 from pandas import Series
 from .get_properties import get_properties
-from vox_data_management import ConfigStore
+from m4i_data_management import ConfigStore
 
 store = ConfigStore.get_instance()
 

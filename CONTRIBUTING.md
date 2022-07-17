@@ -1,11 +1,6 @@
 # How to contribute
 
-This repository is managed by the Van Oord Data Management Platform team.
-
-## Preamble
-If you have found a bug, please [file an issue](https://github.com/VanOord/nxtgen-ldv-python-cdc/issues/new). The team will evaluate the problem and incorporate a planned fix onto the backlog if appropriate.
-
-Please find the Data Management Plaform roadmap and backlog [here](https://vanoord.visualstudio.com/Data%20Management).
+This repository is managed by the Aurelius Enterprise team.
 
 ## Coding conventions
 Please observe the following coding conventions:

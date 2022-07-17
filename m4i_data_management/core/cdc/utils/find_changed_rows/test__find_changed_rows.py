@@ -1,6 +1,6 @@
 import pytest
 from pandas import DataFrame, Series
-from vox_data_management.test.functions import track_has_been_called
+from m4i_data_management.test.functions import track_has_been_called
 
 from .find_changed_rows import find_changed_rows
 

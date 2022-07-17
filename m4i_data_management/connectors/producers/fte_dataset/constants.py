@@ -1,2 +1,0 @@
-FTE_DATASET_PRODUCER_NAME = "fte_dataset_producer"
-INDEX_COL = "EMPLOYEE_NUMBER"

@@ -1,11 +1,11 @@
 from pandas import DataFrame, Series
-from vox_data_management.core.utils import BidirectionalMutliMap
+from m4i_data_management.core.utils import BidirectionalMutliMap
 
 
 def bijacency(data: DataFrame, column_a: str, column_b: str) -> Series:
     """
     Checks whether or not the values in the given `column_a` and `column_b` only occur as a unique combination.
-    
+
     This only works for textual values.
     If a value is not a string, it is converted to a string before comparison.
 

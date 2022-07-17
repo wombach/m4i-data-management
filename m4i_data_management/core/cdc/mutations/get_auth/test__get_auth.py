@@ -1,6 +1,6 @@
 import pytest
 from pandas import Series
-from vox_data_management import ConfigStore
+from m4i_data_management import ConfigStore
 from .get_auth import get_auth
 
 store = ConfigStore.get_instance()

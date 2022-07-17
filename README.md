@@ -1,7 +1,5 @@
-# VOX Data Management
-This library contains all core functionality for publishing data sources to, and consuming data source from, the Van Oord data management platform.
-
-The library also houses the implementations of connectors for various data sources in Van Oord.
+# M4I Data Management
+This library contains all core functionality for publishing data sources to, and consuming data source from, the Aurelius governance platform.
 
 ## Automated CI build
 
@@ -19,13 +17,13 @@ Once the CI job succeeded you should be able to find your package tagged in GitH
 
 Please ensure your `Python` environment is on version `3.7`. Some dependencies do not work with any later versions of `Python`.
 
-To install `vox-data-management` and all required dependencies to your active `Python` environment, please run the following command from the project root folder:
+To install `m4i-data-management` and all required dependencies to your active `Python` environment, please run the following command from the project root folder:
 
 ```
 pip install -e .
 ```
 
-To install `vox-data-management` including development dependencies, please run the following command instead:
+To install `m4i-data-management` including development dependencies, please run the following command instead:
 
 ```
 pip install -e .[dev]
@@ -55,7 +53,7 @@ To make a dictionary nested structure, the different levels are separated by ‘
 
 To load the config from the file for testing:
 ```python
-from vox_data_management import load_config_from_env
+from m4i_data_management import load_config_from_env
 load_config_from_env()
 ```
 
@@ -70,7 +68,6 @@ They can be recognized by the `test__` module name prefix, followed by the name 
 
 ## Contacts
 
-| Name              | Role                | Email                         |
-| ----------------- | ------------------- | ----------------------------- |
-| Andreas Wombacher | IT Architect        | andreas.wombacher@vanoord.com |
-| Maarten van Veen  | IT Project Engineer | maarten.vanveen@vanoord.com   |
+| Name              | Role                | Email                                    |
+| ----------------- | ------------------- | ---------------------------------------- |
+| Andreas Wombacher | IT Architect        | andreas.wombacher@aureliusenterprise.com |

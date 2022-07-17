@@ -1,7 +1,7 @@
 import logging.config
 
 from config import logging_config
-from vox_data_management.connectors.producers.test import test_producer
+from m4i_data_management.connectors.producers.test import test_producer
 
 # Set up the logger
 logging.config.dictConfig(logging_config)

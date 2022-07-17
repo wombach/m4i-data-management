@@ -27,7 +27,7 @@ logging_config = {
         }
     },
     'loggers': {
-        'vox_data_management': {
+        'm4i_data_management': {
             'level': 'DEBUG',
             'handlers': ['debug', 'default']
         }

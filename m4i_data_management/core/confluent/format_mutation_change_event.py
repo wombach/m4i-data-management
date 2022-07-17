@@ -3,7 +3,7 @@ from uuid import uuid4 as uuid
 
 from pandas import DataFrame, Series, notnull
 
-from vox_data_management.core.cdc import CDCChangeType
+from m4i_data_management.core.cdc import CDCChangeType
 
 from ..cdc import CHANGE_TYPE_COLUMN
 from ..utils import omit

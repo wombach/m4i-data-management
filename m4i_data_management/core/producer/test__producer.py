@@ -1,6 +1,6 @@
 import pytest
 from pandas import DataFrame
-from vox_data_management.test import assert_has_method_been_called
+from m4i_data_management.test import assert_has_method_been_called
 
 from .producer import Producer
 
