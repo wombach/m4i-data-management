@@ -1,0 +1,8 @@
+# Key Value
+config_value_1=one
+config_value_2=two
+# List
+config_value_3__0=list_item_one
+config_value_3__1=list_item_two
+# Dictionary
+config_value_4__value_5=four_five_dict
